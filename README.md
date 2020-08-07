@@ -33,8 +33,8 @@ Each file contains more info on the attack such as:
 
 ## Attacks evasion performance:
 
-| Defense | Charbot | DeepDGA | MaskDGA |
-| ------ | ------ |------ |------ |
+| Defense | No Attack | Charbot | DeepDGA | MaskDGA |
+| ------ | ------ |------ |------ |------ |
 | CNN (Invincea) |  0.96 | 0.66|0.85|0.50|
 | CNN (Invincea) + Distillation |  0.96|0.66|0.79|0.49 |
 | CNN (Invincea) + Charbot retrain |  0.93|0.64|0.68|0.50|
