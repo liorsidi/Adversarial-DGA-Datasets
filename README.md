@@ -28,8 +28,38 @@ Each file contains more info on the attack such as:
 - **maskDGA_iteration**: the model retraining phase, for evaluation use the highest value (=4).
 
 
-## Comperisson of attacks charachters distribution to other datasets
 
+
+
+
+## Datasets unigram charachters distribution
+
+### Adversarial attacks datasets
+Available in this repository.
+
+![DeepDGA](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/DeepDGA.png)
+![CharBot](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/CharBot.png)
+![MaskDGA_CNN_25](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/MaskDGA_CNN_25.png)
+![MaskDGA_CNN_50](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/MaskDGA_CNN_50.png)
+![MaskDGA_CNN_75](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/MaskDGA_CNN_75.png)
+![MaskDGA_LSTM_50](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/MaskDGA_LSTM_50.png)
+![AppendAttack](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/AppendAttack.png)
+![SearchAttack](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/SearchAttack.png)
+![Random](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/Random.png)
+
+### Benign datasets 
+Not available in this repository - need contact each owner separately.
+
+![Alexa1Mil](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/Alexa1Mil.png)
+![AmeritaDGA_benign](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/AmeritaDGA_benign.png)
+![ISP_Benign](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/ISP_Benign.png)
+
+### DGA datasets
+Not available in this repository - need contact each owner separately.
+
+![AmeritaDGA_DGA](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/AmeritaDGA_DGA.png)
+![DGA_Archive](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/DGA_Archive.png)
+![ISP_DGA](https://github.com/liorsidi/Adversarial-DGA-Datasets/blob/master/unigrams_distribution/ISP_DGA.png)
 
 ## Attacks evasion performance:
 
