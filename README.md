@@ -1,31 +1,31 @@
 # Adversarial DGA Dataset
 A collection of different adversarial attacks on Domain Generated Algorithms' (DGA) classifiers
 
-The goal of sharing the dataset is to help the research community to come with new defense mechanism against DGA adversarial attacks.
+The goal of sharing the dataset is to help the research community to come with a new defense mechanism against DGA adversarial attacks.
 
 Each attack type contains 10,000 samples for evaluation and 2,000 samples for adversarial training.
 
-We implemented the attacks based on autohr papers or code sinppets they send us privatly.
+We implemented the attacks based on author papers or code snippets they send us privately.
 
 
 ## Attacks Data & Papers
 - **DeepDGA**: Anderson, H. S., Woodbridge, J., & Filar, B. (2016, October). DeepDGA: Adversarially-tuned domain generation and detection. In Proceedings of the 2016 ACM Workshop on Artificial Intelligence and Security (pp. 13-21). ([paper](https://arxiv.org/abs/1610.01969)  / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/DeepDGA))
 - **CharBot**: Peck, J., Nie, C., Sivaguru, R., Grumer, C., Olumofin, F., Yu, B., ... & De Cock, M. (2019). CharBot: A simple and effective method for evading DGA classifiers. IEEE Access, 7, 91759-91771. ([paper](https://arxiv.org/abs/1905.01078) / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/CharBot))
 - **MaskDGA**: Sidi, L., Nadler, A., & Shabtai, A. (2019). MaskDGA: A black-box evasion technique against DGA classifiers and adversarial defenses. arXiv preprint arXiv:1902.08909. ([paper](https://arxiv.org/abs/1902.08909) / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/MaskDGA))
-- **Append**: Sequential adversarial attack that appendד charachers one after the other. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/AppendAttack))
-- **Search**: An extension of MaskDGA, the attack keeps changing charachters untill the substitute model prediction changes. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/SearchAttack))
-- **Random**: Randomally change the charachters regardless the attack. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/RandomAttack))
+- **Append**: A sequential adversarial attack that appends characters one after the other. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/AppendAttack))
+- **Search**: An extension of MaskDGA, the attack keeps changing characters until the substitute model prediction changes. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/SearchAttack))
+- **Random**: Randomly change the characters of a generated domain.([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/RandomAttack))
 
 
 ## More about the MaskDGA datasets
-The dataset contains multiple files for each attacker's subsitute model type (CNN/LSTM) and threshold for charachter changes (25/50/75).
+The dataset contains multiple files for each attacker's substitute model type (CNN/LSTM) and the threshold for character changes (25/50/75).
 
-Each file contains more info on the attack such as: 
-- **url_original**: the original url before the attack.
-- **family_name**: the original DGA family of the url.
-- **url**: the url after the attack.
-- **sub_model_benign_prob**: the attacker subsitute model confidence for benign.
-- **maskDGA_iteration**: the model retraining phase, for evaluation use the highest value (=4).
+Each file contains more info on the attack, such as: 
+- **url_original**: the original URL before the attack.
+- **family_name**: the original DGA family of the URL.
+- **url**: the URL after the attack.
+- **sub_model_benign_prob**: the attacker substitute model confidence for benign.
+- **maskDGA_iteration**: the model retraining phase, for evaluation, use the highest value (=4).
 
 
 
