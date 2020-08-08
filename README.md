@@ -12,8 +12,8 @@ We implemented the attacks based on autohr papers or code sinppets they send us 
 - **DeepDGA**: Anderson, H. S., Woodbridge, J., & Filar, B. (2016, October). DeepDGA: Adversarially-tuned domain generation and detection. In Proceedings of the 2016 ACM Workshop on Artificial Intelligence and Security (pp. 13-21). ([paper](https://arxiv.org/abs/1610.01969)  / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/DeepDGA))
 - **CharBot**: Peck, J., Nie, C., Sivaguru, R., Grumer, C., Olumofin, F., Yu, B., ... & De Cock, M. (2019). CharBot: A simple and effective method for evading DGA classifiers. IEEE Access, 7, 91759-91771. ([paper](https://arxiv.org/abs/1905.01078) / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/CharBot))
 - **MaskDGA**: Sidi, L., Nadler, A., & Shabtai, A. (2019). MaskDGA: A black-box evasion technique against DGA classifiers and adversarial defenses. arXiv preprint arXiv:1902.08909. ([paper](https://arxiv.org/abs/1902.08909) / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/MaskDGA))
-- **Append**: Sequential adversarial attack that append charachers one after the other. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/AppendAttack))
-- **Search**: An extension of MaskDGA, it keep changing charachters up untull the subsitut model prediction changes. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/SearchAttack))
+- **Append**: Sequential adversarial attack that appendד charachers one after the other. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/AppendAttack))
+- **Search**: An extension of MaskDGA, the attack keeps changing charachters untill the substitute model prediction changes. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/SearchAttack))
 - **Random**: Randomally change the charachters regardless the attack. ([data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/RandomAttack))
 
 
