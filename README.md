@@ -1,4 +1,4 @@
-# Adversarial-DGA-Datasets
+# Adversarial DGA Dataset
 A collection of different adversarial attacks on Domain Generated Algorithms' (DGA) classifiers
 
 The goal of sharing the dataset is to help the research community to come with new defense mechanism against DGA adversarial attacks.
