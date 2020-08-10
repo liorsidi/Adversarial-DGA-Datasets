@@ -1,4 +1,6 @@
 # Adversarial DGA Dataset
+
+
 A collection of different adversarial attacks on Domain Generated Algorithms' (DGA) classifiers
 
 The goal of sharing the dataset is to help the research community to come with a new defense mechanism against DGA adversarial attacks.
@@ -7,6 +9,9 @@ Each attack type contains 10,000 samples for evaluation and 2,000 samples for ad
 
 We implemented the attacks based on author papers or code snippets they send us privately.
 
+Please quote the following papers for using this repository:
+- Lior Sidi, Asaf Nadler, and Asaf Shabtai. "MaskDGA: A black-box evasion technique against DGA classifiers and adversarial defenses."(2019).
+- Lior Sidi, Yisroel Mirsky, Asaf Nadler, Yuval Elovici, Asaf Shabta. "Helix: DGA Domain Embeddings for Tracking and Exploring Botnets" (2020).
 
 ## Attacks Data & Papers
 - **DeepDGA**: Anderson, H. S., Woodbridge, J., & Filar, B. (2016, October). DeepDGA: Adversarially-tuned domain generation and detection. In Proceedings of the 2016 ACM Workshop on Artificial Intelligence and Security (pp. 13-21). ([paper](https://arxiv.org/abs/1610.01969)  / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/DeepDGA))
@@ -71,3 +76,5 @@ Not available in this repository - need contact each owner separately.
 | CNN (Invincea) + DeepDGA retrain | 0.92|0.60|0.97|0.51|
 | CNN (Invincea) + MaskDGA retrain | 0.92|0.62|0.72|0.95|
 | Helix (AE Embeddings + KNN) |  0.87|0.65|0.79|0.73|
+
+Architecture for Helix is available at: https://github.com/liorsidi/Helix
