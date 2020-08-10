@@ -11,7 +11,7 @@ We implemented the attacks based on author papers or code snippets they send us 
 
 Please quote the following papers for using this repository:
 - Lior Sidi, Asaf Nadler, and Asaf Shabtai. "MaskDGA: A black-box evasion technique against DGA classifiers and adversarial defenses."(2019).
-- Lior Sidi, Yisroel Mirsky, Asaf Nadler, Yuval Elovici, Asaf Shabta. "Helix: DGA Domain Embeddings for Tracking and Exploring Botnets" (2020).
+- Lior Sidi, Yisroel Mirsky, Asaf Nadler, Yuval Elovici and Asaf Shabtai. "Helix: DGA Domain Embeddings for Tracking and Exploring Botnets" (2020).
 
 ## Attacks Data & Papers
 - **DeepDGA**: Anderson, H. S., Woodbridge, J., & Filar, B. (2016, October). DeepDGA: Adversarially-tuned domain generation and detection. In Proceedings of the 2016 ACM Workshop on Artificial Intelligence and Security (pp. 13-21). ([paper](https://arxiv.org/abs/1610.01969)  / [data](https://github.com/liorsidi/Adversarial-DGA-Datasets/tree/master/DeepDGA))
